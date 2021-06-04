@@ -1,0 +1,20 @@
+raw_months,raw_count,cycle,months,count,fraction_of_baseline,cell,notes
+0.100671141,191.2631831,1,0,225.1917546,1,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+3.020134228,4.110738255,1,3,4.110738255,0.018254391,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+5.939597315,43.74400767,1,6,43.74400767,0.194252262,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+8.959731544,56.60354746,1,9,56.60354746,0.251357105,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+11.97986577,55.17737296,1,12,55.17737296,0.245023949,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+15.20134228,73.41802493,1,15,73.41802493,0.326024481,CD19 B-cells : cycle 1,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+0,71.60834132,2,0,71.60834132,0.317988292,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+3.020134228,16.61073826,2,3,16.61073826,0.07376264,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+6.040268456,18.75599233,2,6,18.75599233,0.083288984,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+9.161073826,42.34180249,2,9,42.34180249,0.188025546,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+12.28187919,40.92761266,2,12,40.92761266,0.181745609,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+15.20134228,32.34659636,2,15,32.34659636,0.143640234,CD19 B-cells : cycle 2,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+0.100671141,68.04889741,3,0,68.04889741,0.302182012,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+2.919463087,13.02732502,3,3,13.02732502,0.05784992,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+5.939597315,25.88686481,3,6,25.88686481,0.114954763,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+8.859060403,36.94870566,3,9,36.94870566,0.164076637,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+12.18120805,28.415628,3,12,28.415628,0.126184141,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+15,55.53691275,3,15,55.53691275,0.246620543,CD19 B-cells : cycle 3,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/
+-1.510067114,166.0714286,cut_axis_200,,,,CD19 B-cells : cycle 0,data manually digitized from Fig 1 ofhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC6342886/ using https://apps.automeris.io/wpd/

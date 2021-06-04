@@ -109,8 +109,11 @@ ggsave('covid_vax_seroconversion_probability_vs_time_since_BCDT_with_gam.png',un
 
 
 
-# load data on B-cell restoration after Ocvrevus
+# load data on B-cell restoration after Ocvrevus or rituximab
 b <- read.table('Baker2020 - COVID-19 vaccine-readiness for ocrelizumab - Fig3.csv',sep=',',header=TRUE, stringsAsFactors = TRUE)
+b2 <- read.table('Ellrichmann2019_Fig1a.csv',sep=',',header=TRUE, stringsAsFactors = TRUE) %>%
+  filter(cell!='cut_axis_200') %>%
+  filter(months>1)
 
 # select reconstituting population
 # I think it's preferable to include both cell subsets, which parallel each other,
@@ -120,6 +123,12 @@ b <- read.table('Baker2020 - COVID-19 vaccine-readiness for ocrelizumab - Fig3.c
 # would be much better. Someone should do a study!)
 b <- b %>% filter(cell!="Memory B-cells") %>% filter(months>1) # include both CD19 B cell and naive b-cell data
 # b <- b %>% filter(cell=='CD19 B-cells') %>% filter(months>1) # just cd19 b cell data
+
+# join tables
+
+b <- b %>% select(months,fraction_of_baseline,cell) %>%
+  rbind(b2 %>% select(months,fraction_of_baseline,cell))
+
 
 
 # explore how B-cell reconstitution maps onto response
@@ -134,8 +143,8 @@ plot_dat <- b %>%
   select(months,fraction_of_baseline,data)
 
 # reformatting when using cd19+ and naive b-cell data
-plot_dat$data=factor(plot_dat$data,levels=c('probability of seroconversion','Naive B-cells','CD19 B-cells'))
-levels(plot_dat$data)=c('seroconversion probability','mean naive B-cell count relative to baseline','mean cd19+ B-cell count relative to baseline')
+plot_dat$data=factor(plot_dat$data,levels=c('probability of seroconversion','Naive B-cells','CD19 B-cells',levels(b2$cell)))
+levels(plot_dat$data)=c('seroconversion probability','mean naive B-cell count relative to baseline','mean cd19+ B-cell count relative to baseline',levels(b2$cell))
 
 # reformating when using cd19+ data only
 # plot_dat$data=factor(plot_dat$data,levels=c('probability of seroconversion','CD19 B-cells'))
